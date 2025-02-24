@@ -44,9 +44,11 @@ html {
   
   
   .button {
-    display: inline-block;
+    display: block;
     background: aquamarine;
-    animation-name: stretching;
-    animation-duration: 300s;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,90,221,1) 59%, rgba(0,212,255,1) 100%);
+    animation: stretching 1s steps(5,end) infinite alternate;
+    transform: skew(30deg, 20deg);
   }
   
