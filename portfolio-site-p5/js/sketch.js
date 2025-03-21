@@ -43,12 +43,12 @@ for (var i = 0; i < 50; i++){
 }
 
 //function mouseMoved(){
-    drawThing(mouseX,mouseY);
-    drawThing(mouseX-50,mouseY+75);
+    //drawThing(mouseX,mouseY);
+    //drawThing(mouseX-50,mouseY+75);
 //}
 
 //function drawThing(_x,_y){
-    strokeWeight(0);
-    fill(random(200,255),random(200,255),random(200,255));
-    ellipse(_x,_y,30,30);
+    //strokeWeight(0);
+    //fill(random(200,255),random(200,255),random(200,255));
+   //ellipse(_x,_y,30,30);
 //}
