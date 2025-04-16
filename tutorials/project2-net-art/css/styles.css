@@ -1,0 +1,112 @@
+/*
+CSS RESETS:
+ Border box reset:
+https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ 62.5% Fix: https: //www.aleksandrhovhannisyan.com/blog/62-5-percent-font-size-trick/
+*/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+ }
+ 
+ 
+ *,
+ *:before,
+ *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+ }
+ 
+ 
+ html,
+ body {
+    height: 100%;
+ }
+ 
+ 
+ body {
+    font-size: 1.6rem;
+   /* font-size 1.6rem is now the same as 16px */
+   line-height: 1.6;
+   background: rgb(129,30,30);
+   background: linear-gradient(90deg, rgba(129,30,30,1) 0%, rgba(139,25,32,1) 50%, rgba(94,8,8,1) 100%);
+   color: rgb(162, 7, 7);
+}
+
+header {
+   width: 100%;
+   padding: 50px;
+   background-color: rgb(52, 14, 14);
+   text-align: center;
+   z-index: 10;
+}
+
+h1 {
+   color: transparent;
+   text-shadow: 0 0 5px rgba(255, 0, 0, 3.5);
+   font-family: 'Denk One', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   font-size: 4em;
+   text-align: center;
+}
+
+main {
+   margin-top: 80px;
+   padding: 20px;
+   display: flex;
+   flex-direction: column; 
+   align-items: center; 
+   overflow: hidden;
+}
+
+.image-div {
+   position: relative;
+   width: 100%;  
+   max-width: 800px;  
+   overflow: hidden;  
+   margin-bottom: 20px; 
+}
+
+.image-div img {
+   width: 100%;
+   height: auto;
+   object-fit: cover;  
+}
+
+.prev-door {
+   left: 10px; 
+}
+
+.next-door {
+   right: 10px;  
+}
+
+button {
+   position: absolute;
+   bottom: 20px;
+   padding: 10px 20px;
+   background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 5px;
+   z-index: 2;
+}
+
+
+.prev-door {
+   left: 10px;  
+}
+
+
+.next-door {
+   right: 10px;
+}
+
+button:hover {
+   background-color: rgba(0, 0, 0, 0.8);
+}
