@@ -9,7 +9,6 @@ body {
 
 #maze {
     display: grid;
-    grid-template-columns: repeat(5, 50px);
     gap: 2px;
 }
 
